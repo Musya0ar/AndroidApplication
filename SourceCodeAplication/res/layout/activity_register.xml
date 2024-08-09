@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:ignore="ExtraText">\
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/NameInput"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="50dp"
+            android:hint="Name" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Emailinput"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="50dp"
+            android:hint="Email" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Passwordinput"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Phoneinput"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Phone"/>
+
+        <Button
+            android:id="@+id/tombolRegist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
